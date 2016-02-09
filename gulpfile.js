@@ -52,4 +52,4 @@ gulp.task('browserify', function () {
 });
 
 
-gulp.task('default', gulp.series('lint', 'browserify'));
+gulp.task('default', gulp.series('browserify'));
